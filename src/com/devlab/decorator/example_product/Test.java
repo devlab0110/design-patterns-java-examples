@@ -18,6 +18,7 @@ public class Test {
         System.out.println("price: "+productCafe.getPrice());
         System.out.println("");
 
+
         System.out.println("------------------");
         System.out.println("productDecoratedA:");
         System.out.println("- productCafe");

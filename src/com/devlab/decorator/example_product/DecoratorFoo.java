@@ -9,5 +9,4 @@ public class DecoratorFoo extends Decorator{
         this.price = 1;
     }
 
-
 }

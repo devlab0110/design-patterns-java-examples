@@ -13,5 +13,4 @@ public class XMLDocumentFactory extends DocumentFactory {
         return new XMLDocument();
     }
 
-
 }
