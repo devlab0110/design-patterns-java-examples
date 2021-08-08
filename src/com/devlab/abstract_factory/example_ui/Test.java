@@ -1,7 +1,5 @@
 package com.devlab.abstract_factory.example_ui;
 
-
-
 public class Test {
 
     public static void main(String[] args) {
@@ -30,12 +28,6 @@ public class Test {
             System.out.println("Not supported os!");
         }
 
-
-
-
     }
-
-
-
 
 }

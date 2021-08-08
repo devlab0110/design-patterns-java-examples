@@ -13,7 +13,7 @@ public class HandsInventory implements Inventory {
     }
 
     @Override
-    public Iterathor getIterathor() {
+    public Iterator getIterathor() {
         return new HandsInventoryIterator(this);
     }
 }

@@ -20,10 +20,6 @@ public class Test {
         Todo todo2 = new TodoProject("todo2", todos);
         todo2.buildHtml();
 
-
-
-
-
     }
 
 }

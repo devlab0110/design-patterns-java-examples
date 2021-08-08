@@ -1,8 +1,5 @@
 package com.devlab.template_method.example_entity;
 
-
-
-
 public class Test {
 
     public static void main(String[] args) {
@@ -16,7 +13,6 @@ public class Test {
         System.out.println("PostEntity:");
         Entity post = new PostEntity();
         post.save();
-
 
     }
 

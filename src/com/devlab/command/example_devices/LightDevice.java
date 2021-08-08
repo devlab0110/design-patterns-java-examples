@@ -12,5 +12,4 @@ public class LightDevice {
         System.out.println("Light set color: "+color + "!");
     }
 
-
 }

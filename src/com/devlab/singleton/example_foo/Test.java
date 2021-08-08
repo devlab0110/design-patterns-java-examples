@@ -1,8 +1,5 @@
 package com.devlab.singleton.example_foo;
 
-
-
-
 public class Test {
 
     public static void main(String[] args) {
@@ -12,8 +9,6 @@ public class Test {
         Singleton objB = Singleton.getInstance();
 
         Singleton objC = Singleton.getInstance();
-
-
 
     }
 }

@@ -52,12 +52,6 @@ public class Test {
         Manager manager = new Manager(commands);
         manager.run();
 
-
-
-
-
-
-
     }
 
 }

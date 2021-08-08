@@ -2,8 +2,6 @@ package com.devlab.facade.example_foo.stuff;
 
 public class ToolA {
 
-
-
     public void bar(){
         System.out.println("ToolA : bar");
     }

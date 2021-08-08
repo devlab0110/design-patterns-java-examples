@@ -3,7 +3,7 @@ package com.devlab.Iterator.example_inventory;
 
 import com.devlab.Iterator.example_inventory.stuff.Item;
 
-public class HandsInventoryIterator implements Iterathor {
+public class HandsInventoryIterator implements Iterator {
 
     private HandsInventory handsInventory;
     private int index = 0;

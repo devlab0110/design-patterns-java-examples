@@ -21,7 +21,7 @@ public class Test {
         System.out.println("\n------------------");
         System.out.println("HandsInventory iterate:");
         Inventory hands = new HandsInventory(item1, item2);
-        Iterathor iterathor = hands.getIterathor();
+        Iterator iterathor = hands.getIterathor();
         while (true){
             Item item = iterathor.next();
             if(item == null){
@@ -42,7 +42,7 @@ public class Test {
         items.add(item5);
 
         MainInventory main = new MainInventory(items);
-        Iterathor iterathor2 = main.getIterathor();
+        Iterator iterathor2 = main.getIterathor();
         while (true){
             Item item = iterathor2.next();
             if(item == null){
@@ -56,7 +56,7 @@ public class Test {
         System.out.println("\n------------------");
         System.out.println("MainInventory iterate LOCKED!!!:");
         main.lock();
-        Iterathor iterathor3 = main.getIterathor();
+        Iterator iterathor3 = main.getIterathor();
         while (true){
             Item item = iterathor3.next();
             if(item == null){

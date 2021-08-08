@@ -7,8 +7,6 @@ public class TodoSingle implements Todo {
         this.text = text;
     }
 
-
-
     @Override
     public String buildHtml() {
         System.out.println("TodoSingle : getHtml");
@@ -18,6 +16,5 @@ public class TodoSingle implements Todo {
         html += "</ul>";
         return html;
     }
-
 
 }

@@ -25,7 +25,6 @@ public class Test {
         adapter.methodB();
         adapter.methodC();
 
-
     }
 
 }

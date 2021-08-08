@@ -3,7 +3,7 @@ package com.devlab.Iterator.example_inventory;
 
 import com.devlab.Iterator.example_inventory.stuff.Item;
 
-public class MainInventoryIterator implements Iterathor {
+public class MainInventoryIterator implements Iterator {
 
     private MainInventory mainInventory;
     private int max = 0;
