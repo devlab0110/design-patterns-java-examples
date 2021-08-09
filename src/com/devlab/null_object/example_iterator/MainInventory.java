@@ -13,7 +13,7 @@ public class MainInventory implements Inventory {
     }
 
     @Override
-    public Iterathor getIterathor() {
+    public Iterator getIterathor() {
         if(locked){
             System.out.println("MainInventory : getIterathor <<< NullIterator");
             return new NullIterator();
